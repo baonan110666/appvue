@@ -1,0 +1,27 @@
+.geshou{
+    ul{
+        
+        @include flexbox();
+        @include flex-direction(column);
+        width:100%;
+        li{
+            font-size:.18rem;
+             height:.5rem;
+             line-height: .5rem;
+             border-bottom: .01rem solid #ccc;
+            @include flexbox();
+            @include flex-wrap(wrap);
+            @include justify-content(space-between);
+            
+            i{
+                
+                padding: 0 .1rem;
+                
+            }
+        }
+        
+    }
+    
+    
+    
+}
